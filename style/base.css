@@ -1,0 +1,99 @@
+@import "normalize.css";
+@import "fonts.css";
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+/* Base and Reset */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 50px;
+
+  font-family: "Gilroy", serif;
+
+  background-color: #0b1d26;
+
+  background-image: url("./../images/bg/bg.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+ul,
+li {
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+
+  color: inherit;
+}
+
+.container {
+  max-width: 1790px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container--min {
+  max-width: 1490px;
+}
+
+.none {
+  display: none;
+}
+
+.subtitle {
+  position: relative;
+
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.78;
+  letter-spacing: 6px;
+
+  color: #fbd784;
+}
+
+.title {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.78;
+
+  color: #fff;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.78;
+
+  color: #fff;
+}
